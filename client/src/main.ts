@@ -80,7 +80,7 @@ async function handleSubmit(e: Event): Promise<any> {
   loader(messageDiv);
 
   //Fetch data from server
-  const response: Response = await fetch("http://127.0.0.1:8080/", {
+  const response: Response = await fetch("https://third-hand.onrender.com/", {
     method: "POST",
     headers: {
       "Content-Type": "application/json",
